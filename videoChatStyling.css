@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#leftSection {
+    width: 25vw;
+    height: 100vh;
+    box-shadow: 0px 4px 52px rgba(0, 0, 0, 0.13);
+}
+#imageLogo{
+    padding-top: 7%;
+    margin-left: 5%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#logo{
+    width:30%;
+    margin-bottom: 10%;
+}
+#headingText{
+    font-size: 2rem;
+    margin-left: 9%;
+}
+input{
+    margin-top: 4%;
+    margin-left: 9%;;
+    padding: 5px;
+    width: 80%;
+    height: 3%;
+    font-size: 1.25rem;
+    border: 2px solid #099dfd;
+    border-radius: 5px;
+}
+#joinButton{
+    margin-left: 9%;
+    margin-top: 5%;
+    width: 15%;
+
+    background-color: #099dfd;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+#flexContainer{
+    display: flex;
+    flex-direction: row;
+}
+#rightSection{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+#localStream{
+    text-align: left;
+    margin-top: 150px;
+    justify-self: center;
+    border: 2px solid #099dfd;
+    width: 50vw;
+    height: 60vh;
+}
+#remoteStream{
+    display: inline-block;
+    margin-left: 18.7%;
+    text-align: left;
+    margin-top: 1%;
+    justify-self: center;
+    border: 2px solid #099dfd;
+    width: 15vw;
+    height: 18vh;
+}
+ 

@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Video Chat HW3</title>
+        <link rel="stylesheet" href="videoChatStyling.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id = "flexContainer">
+            <div id = "leftSection">
+                <div id = "imageLogo">
+                    <img id = "logo" src= "agoraLogo.png"/>
+                </div>
+                <span id="headingText">
+                    Join A Chat!
+                </span>
+                <br>
+                <input type="text" id = "userName" placeholder="Username"/>
+                <br>
+                <input type="text" id = "channelName" placeholder="Channel Name"/>
+                <button id="joinButton">Join</button>
+            </div>
+            <div id="rightSection">
+                <center><div id="localStream"></div></center>
+
+                <div id="remoteStream"></div>
+
+            </div>
+        </div>
+        <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.0.0.js"></script>
+        <script src="agoraRTC.js"></script>
+    </body>
+</html>
