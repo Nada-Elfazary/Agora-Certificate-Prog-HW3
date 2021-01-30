@@ -62,13 +62,16 @@ input{
     height: 60vh;
 }
 #remoteStream{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     margin-left: 18.7%;
     text-align: left;
     margin-top: 1%;
     justify-self: center;
     border: 2px solid #099dfd;
-    width: 15vw;
+    width: 62%;
     height: 18vh;
 }
- 
+ .styledBorder{
+    border: 2px solid #099dfd;
+ }

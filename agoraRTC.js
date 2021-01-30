@@ -10,6 +10,7 @@ function addVideoStream(streamId){
     streamDiv.id = streamId;
     streamDiv.style.transform = "rotateY(180deg)";
     streamDiv.style.height = "18vh";
+    streamDiv.className = "styledBorder";
     remoteTab.appendChild(streamDiv)
 } 
 
