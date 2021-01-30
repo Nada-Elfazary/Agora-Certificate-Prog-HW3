@@ -74,4 +74,5 @@ input{
 }
  .styledBorder{
     border: 2px solid #099dfd;
+    width:10vw;
  }
